@@ -106,7 +106,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     console.log("--componentDidMount--");
-    API.fetchFriends().then((friends) => {
+    window.API.fetchFriends().then((friends) => {
       this.setState({
         friends,
         loading: false,
