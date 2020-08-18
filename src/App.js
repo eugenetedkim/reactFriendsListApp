@@ -2,6 +2,29 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+window.API = {
+  fetchFriends() {
+    return new Promise((res, rej) => {
+      const friends = [
+        {
+          name: "Jordyn",
+          active: true,
+        },
+        {
+          name: "Mikenzi",
+          active: true,
+        },
+        {
+          name: "Jake",
+          active: false,
+        },
+      ];
+
+      setTimeout(() => res(friends), 2000);
+    });
+  },
+};
+
 class Loading extends React.Component {
   constructor(props) {
     super(props);
