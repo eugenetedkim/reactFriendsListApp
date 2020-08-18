@@ -7,16 +7,36 @@ window.API = {
     return new Promise((res, rej) => {
       const friends = [
         {
-          name: "Jordyn",
+          name: "Chandler",
           active: true,
         },
         {
-          name: "Mikenzi",
+          name: "Joey",
           active: true,
         },
         {
-          name: "Jake",
-          active: false,
+          name: "Rachel",
+          active: true,
+        },
+        {
+          name: "Pheobe",
+          active: true,
+        },
+        {
+          name: "Monica",
+          active: true,
+        },
+        {
+          name: "Ross",
+          active: true,
+        },
+        {
+          name: "Gunther",
+          active: true,
+        },
+        {
+          name: "Janice",
+          active: true,
         },
       ];
 
