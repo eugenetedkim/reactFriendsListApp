@@ -32,11 +32,11 @@ window.API = {
         },
         {
           name: "Gunther",
-          active: true,
+          active: false,
         },
         {
           name: "Janice",
-          active: true,
+          active: false,
         },
       ];
 
